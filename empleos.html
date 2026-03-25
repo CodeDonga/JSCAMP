@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <title>DevJobs - Empleos</title>
+    <meta charset="UTF-8" | />
+    <meta
+      name="description"
+      content="Ocupando el buscador podras
+    acceder a las mejores ofertas de trabajo."
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="icon icon-tabler icons-tabler-filled icon-tabler-file-cv"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-2.5 8a2.5 2.5 0 0 0 -2.5 2.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0 -2 0a.5 .5 0 1 1 -1 0v-3a.5 .5 0 1 1 1 0a1 1 0 0 0 2 0a2.5 2.5 0 0 0 -2.5 -2.5m6.743 .03a1 1 0 0 0 -1.213 .727l-.53 2.119l-.53 -2.119a1 1 0 1 0 -1.94 .486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5 -6a1 1 0 0 0 -.727 -1.213m-1.244 -7.031l4.001 4.001h-4z"
+          />
+        </svg>
+        DevJobs
+      </h1>
+
+      <nav>
+        <a href="./index.html">Inicio</a>
+        <!--target="blank" abre nueva pestana rel= "noopener noreferrer" no 
+    puede volver atras a la pagina de la que viene-->
+        <a href="./empleos.html">Empleos</a>
+        <a href="./empresas.html">Empresas</a>
+      </nav>
+      <div>
+        <a href="https://github.com/lasombradefyodor">Subir CV</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="jobs-search">
+        <h1>Encuentra tu proximo trabajo</h1>
+        <p>Explora miles de oportunidades en el sector tecnologico.</p>
+
+        <form id="empleos-search-form" role="search">
+          <div class="search-bar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-search"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+              <path d="M21 21l-6 -6" />
+            </svg>
+
+            <input
+              name="search"
+              id="empleos-search-input"
+              required
+              type="text"
+              placeholder="Buscar trabajos, empresas o habildiades"
+            />
+          </div>
+
+          <div class="search-filters">
+            <select name="technology" id="filter-technology">
+              <optgroup label="Tecnologias populares">
+                <option value="">Tecnologia</option>
+                <option value="java">Java</option>
+                <option value="react">React</option>
+                <option value="nodejs">Node.js</option>
+                <option value="javascript">JavaScript</option>
+              </optgroup>
+              <hr />
+              <option value="c#">C#</option>
+              <option value="typescript">Typescript</option>
+              <hr />
+              <option value="react">React Native</option>
+              <option value="swift">Swift</option>
+              <option value="kotlin">Kotlin</option>
+            </select>
+
+            <select name="location" id="filter-location">
+              <option value="">Ubicacion</option>
+              <option value="remoto">Remoto</option>
+              <option value="cdmx">Ciudad de Mexico</option>
+              <option value="guadalajara">Guadalajara</option>
+              <option value="monterrey">Monterrey</option>
+              <option value="barcelona">Barcelona</option>
+            </select>
+
+            <select name="experience-level" id="filter-experience">
+              <option value="">Nivel de experiencia</option>
+              <option value="junior">Junior</option>
+              <option value="mid">Mid-level</option>
+              <option value="senior">Senior</option>
+              <option value="lead">Lead</option>
+            </select>
+          </div>
+        </form>
+
+        <span id="filter-selected-value"></span>
+      </section>
+
+      <section>
+        <h2>Resultados de busqueda</h2>
+
+        <div class="jobs-listings"></div>
+
+        <nav class="pagination">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M15 6l-6 6l6 6" /></svg
+          ></a>
+          <a href="#" class="is-active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 6l6 6l-6 6" /></svg
+          ></a>
+        </nav>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; 2026 DevJobs. Todos los derechos reservados.</small>
+    </footer>
+  </body>
+</html>

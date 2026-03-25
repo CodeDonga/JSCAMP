@@ -1,0 +1,111 @@
+[
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a1",
+  "titulo": "Desarrollador de Software Senior",
+  "empresa": "Tech Solutions Inc.",
+  "ubicacion": "Remoto",
+  "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+  "data": {
+    "technology": "react", 
+    "modalidad": "remoto",
+    "nivel": "senior"
+    }
+  },
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a2",
+  "titulo": "Analista de datos",
+  "empresa": "Tech Solutions Inc.",
+  "ubicacion": "Madrid",
+  "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualizacion. Se requiere conocimiento en SQL, python y R.",
+  "data": {
+    "technology": "python",
+    "modalidad": "madrid",
+    "nivel": "junior"
+    }
+  },
+
+
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a3",
+  "titulo": "Desarrollador de aplicaciones moviles",
+  "empresa": "Data Driven Co.",
+  "ubicacion": "Ciudad de Mexico",
+  "descripcion": "Buscamos un desarrollador de aplicaciones moviles con experiencia en IOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
+  "data": {
+  "technology": "swift", 
+  "modalidad": "cdmx",
+  "nivel": "mid"
+    }
+  },
+
+
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a4",
+  "titulo": "Ingeniero de DevOps",
+  "empresa": "Tech Solutions Inc.",
+  "ubicacion": "Remoto",
+  "descripcion": "Estamos buscando un ingeniero DevOps con experiencia en la gestion de infraestructuras en la nube, automatizacion de procesos y herramientas de integracion continua. Se requiere conocimiento en AWS, Azure o GCP.",
+  "data": {
+  "technology": "java",
+  "modalidad": "remoto",
+  "nivel": "senior"
+    }
+  },
+
+
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a5",
+  "titulo": "Desarrollador de React Native",
+  "empresa": "Tech Solutions Inc.",
+  "ubicacion": "Guadalajara",
+  "descripcion": "Buscamos un desarrollador con experiencia en desarrollo con React Native y conocimientos en Typescript y C#. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+  "data": {
+    "technology": "c#",
+    "modalidad": "guadalajara",
+    "nivel": "senior"
+    }
+  },
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a6",
+  "titulo": "Desarrollador de Node",
+  "empresa": "Prismatec",
+  "ubicacion": "Monterrey",
+  "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo con Node.js y Javascript. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+  "data": {
+    "technology": "node",
+    "modalidad": "monterrey",
+    "nivel": "senior"
+    }
+  },
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a7",
+  "titulo": "Desarrollador de Swift",
+  "empresa": "Coca Cola Embonor",
+  "ubicacion": "Ciudad de Mexico",
+  "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo con Swift y C#. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+  "data": {
+    "technology": "c#",
+    "modalidad": "cdmx",
+    "nivel": "senior"
+    }
+  },
+
+  {
+  "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a8",
+  "titulo": "Tecnico en informatica experto en React Native",
+  "empresa": "Apple",
+  "ubicacion": "Monterrey",
+  "descripcion": "Buscamos un tecnico en informatica con experiencia en desarrollo con React Native y conocimientos en JavaScript, Typescript y C#. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+  "data": {
+    "technology": "react",
+    "modalidad": "monterrey",
+    "nivel": "mid"
+    }
+  }
+]
